@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Мій улюблений фільм</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Мій улюблений фільм — Інтерстеллар</h1>
+    <nav>
+      <a href="#about">Про фільм</a>
+      <a href="#characters">Персонажі</a>
+      <a href="#gallery">Галерея</a>
+    </nav>
+    <button onclick="changeBackground()">Змінити фон</button> 
+   </header>
+
+  <main>
+    <section id="about">
+      <h2>Про фільм</h2>
+      <p>«Інтерстеллар» — це фантастичний фільм про космос, час і людство. 
+         Головний герой вирушає у подорож крізь чорну діру, щоб знайти новий дім для людей.</p>
+    </section>
+
+    <section id="characters">
+      <h2>Головні персонажі</h2>
+      <ul>
+        <li><strong>Купер</strong> — пілот і батько головної героїні.</li>
+        <li><strong>Мерф</strong> — його донька, майбутня вчена.</li>
+        <li><strong>Амілія</strong> — астронавтка і колега Купера.</li>
+      </ul>
+    </section>
+
+    <section id="gallery">
+      <h2>Галерея</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg" alt="Постер Інтерстеллар">
+    </section>
+
+    <section id="contact">
+      <h2>Контакт</h2>
+      <form id="contactForm">
+        <label>Ім’я:
+          <input type="text" name="name" required>
+        </label>
+        <label>Повідомлення:
+          <textarea name="message" rows="3"></textarea>
+        </label>
+        <button type="submit">Відправити</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Мій улюблений фільм</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
